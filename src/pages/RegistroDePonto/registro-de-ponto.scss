@@ -1,0 +1,59 @@
+page-registro-de-ponto {
+
+    .bg-registro {
+        width: 100%;
+        height: 100%;
+        background-image: url('/assets/imgs/fundo.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+
+    .logo-prestman {
+        width: 20%;
+        position: relative;
+        top: -20px
+
+    }
+
+
+.overlay2 {
+    width: 100%;
+    height: 100%;
+   // background: linear-gradient(to top, #000, yellow);
+    background: linear-gradient(to top, rgb(40, 23, 198), transparent);
+}
+
+    .bg-transp {
+        background: transparent
+    }
+
+.ctaLogin {
+    padding: 15px;
+    background: $Ghostwhite;
+    border-radius: 80px;
+    color: $Black;
+}
+
+.ctaRegister {
+    padding: 15px;
+    background: $Ghostwhite;
+    border-radius: 80px;
+    color: $Black;
+}
+
+.txtRegistrar {
+    color: $Ghostwhite;
+}
+ 
+.ctaEntrada {
+    padding: 15px;
+    background: $Red;
+    border-radius: 60px;
+    color: $Light;
+}
+
+
+
+
+
+}

@@ -1,0 +1,69 @@
+<ion-content>
+
+  <!--LOGIN-->
+  <div class="bg-login" *ngIf="Login">
+
+    <!--BACKGROUND-->
+    
+      <!--OVERLAY-->
+      <div class="overlay2">
+          <div class="center padding-top-30-percent">
+              <img src="./assets/imgs/logo-prestman.png" class="logo-prestman">
+            </div>
+          <!--LOGIN CONTAINER-->  
+
+        <div>
+          
+          <!--TEXTOS-->
+          <div class="no-margin">
+
+
+
+            <!--TÍTULO-->
+            <h2 class="white center bold no-margin padding-top-30">
+              PRESTMAN
+            </h2>
+
+            <!--SUBTÍTULO-->
+            <p class="white center bold no-margin">
+              Coloque o usuário e a senha
+            </p>
+
+
+            <!--FORMS E CTA-->
+            <div class="no-padding mg-top-70">
+              <ion-list>
+
+                <ion-item class="bg-transp ">
+                  <ion-label class="white bold">Email</ion-label>
+                  <ion-input type="email" class="white bold" [(ngModel)]="Loginform.email" ></ion-input>
+                </ion-item>
+
+                <ion-item class="bg-transp ">
+                  <ion-label class="white bold">Senha</ion-label>
+                  <ion-input type="password" class="white bold" [(ngModel)]="Loginform.password" ></ion-input>
+                </ion-item>
+
+              </ion-list>
+
+              <div>
+
+                <div class="ctaLogin center bold mg-top-70" (click)="fazerLogin()" >
+                  Entrar
+                </div>
+
+              </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+
+
+
+
+
+</ion-content>

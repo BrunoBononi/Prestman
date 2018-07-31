@@ -1,0 +1,129 @@
+//Import font
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,700');
+//Global
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+// Color
+.white {
+    color: $Ghostwhite;
+}
+.Purple {
+    color: $Purple;
+}
+.magenta {
+    color: $Magenta;
+}
+.black {
+    color: $Black !important
+}
+
+//Align
+.right {
+    text-align: right
+}
+
+.center {
+    text-align: center
+}
+
+//Margin
+
+.no-margin {
+    margin: 0px
+}
+.mg-top-5 {
+    margin-top: 5px;
+}
+
+.mg-top-10 {
+    margin-top: 10px;
+}
+
+.mg-top-20 {
+    margin-top: 20px;
+}
+
+.mg-top-30 {
+    margin-top: 30px;
+}
+
+.mg-top-40 {
+    margin-top: 40px;
+}
+
+.mg-top-50 {
+    margin-top: 50px;
+}
+
+.mg-top-60 {
+    margin-top: 60px;
+}
+
+.mg-top-70 {
+    margin-top: 70px;
+}
+
+.mg-top-90 {
+    margin-top: 90px;
+}
+
+//Padding
+.no-padding {
+    padding: 0%
+}
+
+
+.padding-40 {
+    padding: 40px
+}
+
+.padding-70 {
+    padding:70px
+}
+
+
+.padding-top-30 {
+    padding-top: 30px
+}
+
+
+.padding-top-20-percent {
+    padding-top: 20%
+}
+
+.padding-top-30-percent {
+    padding-top: 30%
+}
+
+.padding-top-40-percent {
+    padding-top: 40%
+}
+
+.padding-top-50-percent {
+    padding-top: 50%
+}
+
+.padding-top-5-percent {
+    padding-top: 5%
+}
+
+
+//Font
+.bold{
+    font-weight: 700
+}
+
+
+.light {
+    font-weight: 300
+}
+
+.italic {
+    font-style: italic
+}
+
+.font-subtitle {
+    font-size: 20px;
+}
